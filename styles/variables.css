@@ -1,1 +1,27 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --pressStart: "PressStart2P-Regular", sans-serif;
+  --inter: "Inter-Variable", sans-serif;
+  --mainGradient:
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.1%, #1a1a1a 100%);
+  --width: clamp(375px, 80vw, 700px);
+  --height__header: clamp(327px, 80vh, 368px);
+  --font__def-var: 410;
+  --font__var: 715;
+  --label__color: #ffffff;
+}
