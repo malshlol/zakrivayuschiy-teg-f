@@ -205,6 +205,7 @@
   border: 2px solid #000;
   background-color: #ffffff;
   text-transform: uppercase;
+  transition: box-shadow 0.3s ease;
 }
 
 dialog::backdrop {
@@ -218,6 +219,7 @@ dialog::backdrop {
 }
 
 .card__one {
+  filter: none;
 }
 
 .card__two {
@@ -246,4 +248,72 @@ dialog::backdrop {
 
 .card__eight {
   filter: hue-rotate(180deg);
+}
+
+.card__like-button {
+  position: relative;
+  border-color: #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  mix-blend-mode: difference;
+  padding: 13px 30px;
+  border: 2px solid #000;
+  width: 130px;
+  height: 38px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card__like-button::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  mix-blend-mode: difference;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.card__like-button:hover::after {
+  transform: translateX(0);
+}
+
+.button__text {
+  font-size: 14px;
+  font-family: var(--pressStart);
+  color: #000;
+  font-weight: 400;
+  font-style: normal;
+  mix-blend-mode: difference;
+  line-height: 90%;
+}
+
+.card__like-button:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 0 #000;
+}
+
+.card__like-button:focus-visible {
+  outline: none;
+  box-shadow: 2px 2px 0 0 #000;
+}
+
+.dialog__button:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 0 #000;
+}
+
+.dialog__button:focus-visible {
+  outline: none;
+  box-shadow: 2px 2px 0 0 #000;
+}
+
+.card__like-slide {
+  position: relative;
+  padding: 13px 30px;
+  background-color: #ffffff;
 }
