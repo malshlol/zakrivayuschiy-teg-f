@@ -24,4 +24,6 @@
   --font__def-var: 410;
   --font__var: 715;
   --label__color: #ffffff;
+  --contour__color: #000;
+  --animation-fill-color: #ff0000;
 }
