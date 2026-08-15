@@ -238,33 +238,6 @@ dialog::backdrop {
   background-color: rgba(0 0 0 / 0.75);
 }
 
-@media (width <= 375px) {
-  .save__button {
-    flex-direction: column;
-  }
-
-  .card__title {
-    padding: 10px 22px 11px 11px;
-  }
-
-  .card__list {
-    gap: 41px;
-  }
-
-  .save__button {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: center;
-    max-width: 306px;
-  }
-
-  .floppy {
-    width: 28px;
-    height: 28px;
-  }
-}
-
 .card-grayscale-brightness {
   filter: grayscale(100%) brightness(80%);
 }
@@ -365,4 +338,27 @@ dialog::backdrop {
   margin: 0;
   padding: 0;
   cursor: pointer;
+}
+
+@media (width <= 375px) {
+  .card__title {
+    padding: 10px 22px 11px 11px;
+  }
+
+  .card__list {
+    gap: 41px;
+  }
+
+  .save__button {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    max-width: 306px;
+  }
+
+  .floppy {
+    width: 28px;
+    height: 28px;
+  }
 }
