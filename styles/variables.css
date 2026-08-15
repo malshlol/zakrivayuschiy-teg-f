@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --pressStart: "PressStart2P", sans-serif;
-  --inter: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
+  --main-font: "Inter-Variable", sans-serif;
   --mainGradient:
     repeating-linear-gradient(
       90deg,
@@ -20,10 +20,10 @@
     ),
     linear-gradient(to bottom, #e7e7e7 0.1%, #1a1a1a 100%);
   --width: clamp(375px, 80vw, 700px);
-  --height__header: clamp(327px, 80vh, 368px);
-  --font__def-var: 410;
-  --font__var: 715;
-  --label__color: #ffffff;
-  --contour__color: #000;
+  --height: clamp(327px, 40vw, 368px);
+  --fontdef-var: 410;
+  --fontvar: 715;
+  --labelcolor: #ffffff;
+  --contourcolor: #000;
   --animation-fill-color: #ff0000;
 }
