@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --pressStart: "PressStart2P-Regular", sans-serif;
+  --pressStart: "PressStart2P", sans-serif;
   --inter: "Inter-Variable", sans-serif;
   --mainGradient:
     repeating-linear-gradient(
