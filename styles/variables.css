@@ -23,7 +23,7 @@
   --height: clamp(327px, 40vw, 368px);
   --fontdef-var: 410;
   --fontvar: 715;
-  --labelcolor: #ffffff;
-  --contourcolor: #000;
+  --label-color: #ffffff;
+  --contour-color: #000;
   --animation-fill-color: #ff0000;
 }
