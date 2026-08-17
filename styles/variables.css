@@ -3,7 +3,7 @@
 :root {
   --accent-font: "PressStart2P", sans-serif;
   --main-font: "Inter-Variable", sans-serif;
-  --mainGradient:
+  --main-gradient:
     repeating-linear-gradient(
       90deg,
       #d3d3d3 0px,

@@ -16,6 +16,10 @@
   outline: none;
 }
 
+.sparks {
+  opacity: 0;
+}
+
 .contour {
   transition: fill 0.1s linear;
 }
